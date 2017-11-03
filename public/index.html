@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="javascripts/app.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta charset="utf-8">
+  <title>Life through images</title>
+</head>
+<body background="http://idealphotography.biz/wp-content/uploads/2016/06/Cool-Space-Wallpaper-HD-With-HD-Windows-Wallpaper-Full-HD-with-Space-Wallpaper-HD-Download-HD-Wallpaper.jpg">
+
+  
+
+  <div id='app' ng-app='app' ng-controller='mainCtrl'>
+
+    <form class="list" id="newPoki" ng-submit="addPoki()">
+      <h1> Describe your life through images </h1><br><br>
+       Image Title: <input class="input-group" type="text" ng-model="Name" value="">
+    Url: <input type="url" ng-model="Url" value=""> 
+   <input type="submit" value="Submit">
+   </form>
+
+    <div ng-if='!pokemon.length' class='no-pokemon center stretch'>
+      <h1 class='h1'>
+        Set up your endpoint at `/pokemon` to get this view working
+      </h1>
+    </div>
+
+    <ul ng-if='pokemon.length' class='list center stretch'>
+      <li ng-repeat='p in pokemon' class='pokemon'>
+        <h1>{{ p.name }}</h1>
+        <img class='avatar' ng-src="{{p.avatarUrl}}" />
+      </li>
+    </ul>	
+    
+    <!-- <ul ng-if='politics.length' >
+      <li ng-repeat='trump in politics'>
+       {{ trump.Name }}
+      </li>
+   </ul> -->
+  </div>
+
+</body>
+</html>

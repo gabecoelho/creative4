@@ -1,0 +1,87 @@
+nohup: ignoring input
+[0mGET / [36m304 [0m6.368 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m2.046 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.942 ms - -[0m
+in pokemon
+[0mGET /pokemon [32m200 [0m5.138 ms - 114[0m
+In politics
+[0mGET /politics [32m200 [0m308.766 ms - 124147[0m
+[0mGET / [36m304 [0m0.534 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.399 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.177 ms - -[0m
+in pokemon
+[0mGET /pokemon [36m304 [0m1.027 ms - -[0m
+In politics
+[0mGET /politics [32m200 [0m229.585 ms - 124147[0m
+[0mGET / [36m304 [0m1.385 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.588 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.405 ms - -[0m
+in pokemon
+[0mGET /pokemon [36m304 [0m1.407 ms - -[0m
+In politics
+[0mGET /politics [32m200 [0m223.004 ms - 124147[0m
+[0mGET / [36m304 [0m0.306 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m4.435 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.608 ms - -[0m
+in pokemon
+[0mGET /pokemon [32m200 [0m1.180 ms - 114[0m
+In politics
+[0mGET /politics [32m200 [0m230.149 ms - 124147[0m
+[0mGET / [32m200 [0m3.140 ms - 1420[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.303 ms - 616[0m
+[0mGET /javascripts/app.js [32m200 [0m1.252 ms - 1322[0m
+in pokemon
+[0mGET /pokemon [32m200 [0m0.960 ms - 114[0m
+In politics
+[0mGET /politics [32m200 [0m375.684 ms - 124147[0m
+[0mGET /favicon.ico [33m404 [0m296.874 ms - 1185[0m
+[0mGET / [32m200 [0m3.503 ms - 1420[0m
+[0mGET /javascripts/app.js [31m500 [0m2.289 ms - 1291[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET /stylesheets/style.css [31m500 [0m0.960 ms - 1291[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET /javascripts/app.js [31m500 [0m1.721 ms - 1291[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET /stylesheets/style.css [31m500 [0m0.832 ms - 1291[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [33m404 [0m42.194 ms - 1185[0m
